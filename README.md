@@ -31,7 +31,7 @@ O projeto é dividido em duas partes principais:
 - A documentação Swagger estará em: `http://localhost:5000/swagger`
 - O Front-end estará disponível em: `http://localhost:5001`
 
-##  Exmplo envio seguro (teste pelo swagger)
+##  Exemplo envio seguro (teste pelo swagger)
 
 ### `POST /api/seguro`
 Cria um novo seguro.
