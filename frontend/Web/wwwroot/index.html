@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Seguros de Veículos</title>
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>Relatório de Médias dos Seguros de Veículos</h1>
+        
+        <button class="refresh-btn" onclick="carregarDados()">Atualizar Dados</button>
+        
+        <div id="loading" class="loading">
+            Carregando dados...
+        </div>
+        
+        <div id="error" class="error" style="display: none;">
+        </div>
+        
+        <div id="content" style="display: none;">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-label">Total de Seguros</div>
+                    <div class="stat-value" id="totalSeguros">-</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Média do Valor do Veículo</div>
+                    <div class="stat-value" id="mediaValorVeiculo">-</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Média da Taxa de Risco (%)</div>
+                    <div class="stat-value" id="mediaTaxaRisco">-</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Média do Prêmio de Risco</div>
+                    <div class="stat-value" id="mediaPremioRisco">-</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Média do Prêmio Puro</div>
+                    <div class="stat-value" id="mediaPremioPuro">-</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Média do Prêmio Comercial</div>
+                    <div class="stat-value" id="mediaPremioComercial">-</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Média do Valor do Seguro</div>
+                    <div class="stat-value" id="mediaValorSeguro">-</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
+
