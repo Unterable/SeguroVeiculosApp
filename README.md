@@ -54,14 +54,3 @@ Cria um novo seguro.
 ```
 
 
-## Tecnologias Utilizadas
-
-- **.NET 8.0**: Framework principal
-- **ASP.NET Core**: Construção da API REST e serviço do front-end
-- **Entity Framework Core**: ORM para interação com o banco de dados
-- **SQLite**: Banco de dados leve e local
-- **xUnit**: Framework de testes
-- **Swagger**: Documentação interativa da API
-- **HTML/CSS/JavaScript**: Desenvolvimento do front-end
-
-
