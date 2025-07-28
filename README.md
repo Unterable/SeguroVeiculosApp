@@ -21,10 +21,10 @@ Também foi testado em ambiente Docker, rodando em um servidor Linux Debian 9 no
 O projeto é dividido em duas partes principais:
 
 ```
-./
-├── backend/                 # Contém a API e a lógica de negócio (.NET Core 8.0)
-├── frontend/                # Contém a aplicação web (HTML/CSS/JS servida por ASP.NET Core)
-└── README.md                # Este arquivo
+
+├── backend/                 # Contém a API e a lógica de negócio
+├── frontend/                # Contém a aplicação web
+└── README.md                
 ```
 
 - A API estará disponível em:       `http://localhost:5000`
