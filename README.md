@@ -1,6 +1,12 @@
 # Sistema de Cálculo de Seguro de Veículos
 
 
+##  Implantação
+
+O projeto foi implantado em servidores web tradicionais, utilizando IIS para hospedagem.
+Também foi testado em ambiente Docker, rodando em um servidor Linux Debian 9 no modo autossuficiente (.NET self-contained).
+
+
 ## Funcionalidades Principais
 
 - **API RESTful** para gerenciamento e cálculo de seguros.
@@ -59,8 +65,3 @@ Cria um novo seguro.
 - **HTML/CSS/JavaScript**: Desenvolvimento do front-end
 
 
-
-##  Implantação
-
-O projeto foi implantado em servidores web tradicionais, utilizando IIS para hospedagem.
-Também foi testado em ambiente Docker, rodando em um servidor Linux Debian 9 no modo autossuficiente (.NET self-contained).
